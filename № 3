@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+
+int main()
+{
+  int a,b;
+  std::cout << "length of legs a and b? ";
+  std::cin >> a >> b;
+  std::cout <<"hypotenuse"<<" "<<sqrt((a*a)+(b*b))<<"\n"; 
+}
