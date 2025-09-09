@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+
+int main()
+{
+  int v,t;
+  std::cout << "speed and time? ";
+  std::cin >> v >> t;
+  int s = 109;
+  if ((v*t)>s) std::cout <<"mark in"<<" "<<((v*t)%109)<<" "<<"km"<<"\n";
+  if ((v*t)==s) std::cout <<"mark in"<<" "<<(s)<<" "<<"km"<<"\n";
+  if ((v*t)<s) std::cout <<"mark in"<<" "<<(v*t)<<" "<<"km"<<"\n"; 
+  
+}
