@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+
+int main()
+{
+  int a,b;
+  std::cout << "numbers? ";
+  std::cin >> a >> b;
+  std::cout <<"summ ="<<" "<<(a+b)<<" "<<"difference ="<<" "<<(a-b)<<" "<<"multiplication ="<<" "<<(a*b)<<" "<<"division ="<<" "<<(a/b)<<"\n"; 
+}
